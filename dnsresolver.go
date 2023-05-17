@@ -9,7 +9,7 @@ import (
 )
 
 type Options struct {
-	Domain				  string				// Domain name to validate DNS
+	Domain				string				// Domain name to validate DNS
 	DomainsList			string				// File containing list of domains to validate DNS
 }
 
