@@ -24,10 +24,10 @@ func main() {
 	var domainSlice []string
 
 	// Get input from stdin
-	sc := bufio.NewScanner(os.Stdin)
-	for sc.Scan() {
-		domainSlice = append(domainSlice, sc.Text())
-	}
+	// sc := bufio.NewScanner(os.Stdin)
+	// for sc.Scan() {
+	//	domainSlice = append(domainSlice, sc.Text())
+	// }
 
 	// Get domain from Domain flag
 	if options.Domain != "" {
