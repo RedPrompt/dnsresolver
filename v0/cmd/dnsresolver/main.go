@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/redprompt/dnsresolver/v0/pkg/runner"
 	"bufio"
 	"fmt"
 	"os"
